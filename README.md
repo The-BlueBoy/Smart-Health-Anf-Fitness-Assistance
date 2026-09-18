@@ -108,3 +108,6 @@ The page also has a collapsible **"Show the exact prompt sent to Ollama"** secti
 ## 8. Note
 
 The application displays **general wellness information for educational purposes only**. It is not medical advice, it applies a minimum calorie floor so it never suggests an unsafe intake, and the AI prompt explicitly instructs the model to avoid extreme diets and to recommend seeing a doctor for medical concerns. Keep that disclaimer in your report.
+
+Ollama Local Host Path :- 
+http://localhost:11434

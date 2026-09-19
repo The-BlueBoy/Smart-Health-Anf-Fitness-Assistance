@@ -1,0 +1,131 @@
+body {
+    background: linear-gradient(136deg, #9f86c0, #5e548e);
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.login-container {
+    background: white;
+    padding: 30px;
+    border-radius: 50%;
+    box-shadow: 0 0 15px rgb(255, 255, 255, 0.5);
+    text-align: center;
+    position: relative;
+}
+
+.animal {
+    position: relative;
+    width: 100px;
+    height: 70px;
+    margin: 0 auto 20px;
+}
+
+.eye {
+    width: 30px;
+    height: 30px;
+    background: #fff;
+    border: 2px solid #333;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    overflow: hidden;
+}
+
+.login-container .nose {
+    width: 15px;
+    height: 15px;
+    background: violet;
+    border-radius: 50%;
+    position: absolute;
+    top: 35px;
+    left: 50%;
+    transform: translate(-50%);
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
+    text-align: center;
+}
+
+.left-eye {
+    left: 0;
+}
+
+.right-eye {
+    right: 0;
+}
+
+.pupil {
+    width: 10px;
+    height: 10px;
+    background: #333;
+    border-radius: 50%;
+    position: relative;
+    top: 10px;
+    left: 10px;
+    transition: all 0.1s ease;
+}
+
+.password-field {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+#tooglePassword {
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    margin: 7px;
+    padding: 5px;
+    font-size: 12px;
+    cursor: pointer;
+    background: #333;
+    border-radius: 16px;
+    color: #fff;
+}
+
+.login-form {
+    background: #e0d4fc;
+    margin: 25px;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(224, 212, 252, 0.5);
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+    .login-form input {
+        text-align: center;
+        border: 2px solid;
+        color: rgb(0, 0, 0);
+        border-radius: 25px;
+        height: 25px;
+        margin: 10px;
+        border: none;
+        transition: all ease-in-out 0.3s;
+    }
+
+        .login-form input:hover {
+            background: violet;
+            color: #fff;
+            /* transform: scale(1.1); */
+        }
+
+.login .button {
+    text-align: center;
+    height: 40px;
+    width: 100px;
+    border-radius: 25px;
+    margin: 10px;
+    padding: 10px;
+    border: none;
+    transition: all ease-in-out 0.3s;
+}
+
+    .login .button:hover {
+        background: #9f86c0;
+        transform: scale(1.1);
+    }
